@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body,table,td,div,p,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,a,i,object,input,button,table,select,option,textarea{margin: 0;padding: 0;outline:none;border: 0;}
+/* body{font-family: 'Microsoft Yahei', sans-serif;color: #4f4e4d;} */
+img {border: none;}
+ol,ul{list-style: none;}
+th,td{font-weight: normal;}
+a {text-decoration: none;}
+a:hover{text-decoration: none;}
+a:active{text-decoration: none;}
+input:focus{outline: none;}
+textarea{resize: none;font-family: 'Microsoft Yahei', sans-serif;}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+* html .clearfix{height: 1%;}
+*+html .clearfix{min-height: 1%;}/* ie7 hack */
+.fl{float: left;}
+.fr{float: right;}
+/* .tl{text-align: left !important;}
+.tr{text-align: right;}
+.tlighter{font-weight: lighter;}
+.fontWeightN{font-weight: normal !important;} */
+.words_break{word-wrap: break-word;white-space: nowrap;text-overflow: ellipsis;}
+input,button{font-family: 'Microsoft Yahei', sans-serif;}
+*{-moz-box-sizing: border-box;/*Firefox3.5+*/-webkit-box-sizing: border-box;/*Safari3.2+*/-o-box-sizing: border-box;/*Opera9.6*/-ms-box-sizing: border-box;/*IE8*/box-sizing: border-box;/*W3C(IE9+，*/}
+input,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;font-family: 'Microsoft Yahei', sans-serif;color: #4f4e4d;}
+i{font-style: normal;vertical-align: text-top;}

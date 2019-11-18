@@ -1,0 +1,106 @@
+.common {
+    margin-bottom: 25px;
+  
+    .input {
+      width: 420px;
+    }
+  }
+  
+  .star {
+    color: red;
+  }
+  
+  @import '~antd/lib/style/themes/default.less';
+  @import '~@/utils/utils.less';
+  
+  .avatar-uploader>.ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+  
+  .tipUpload {
+    margin-left: 68px;
+    vertical-align: top;
+    margin-right: 20px;
+  
+    em {
+      color: red;
+    }
+  }
+  
+  .UploadContant {
+    width: 128px;
+    height: 128px;
+    display: inline-block;
+  }
+  .UploadContant1 {
+      width: 528px;
+      height: 128px;
+      display: inline-block;
+    }
+  .tableList {
+  
+    .tableListOperator {
+      margin-bottom: 16px;
+  
+      button {
+        margin-right: 8px;
+      }
+    }
+  }
+  
+  .tableListForm {
+    :global {
+      .ant-form-item {
+        display: flex;
+        margin-right: 0;
+        margin-bottom: 24px;
+  
+        >.ant-form-item-label {
+          width: auto;
+          padding-right: 8px;
+          line-height: 32px;
+        }
+  
+        .ant-form-item-control {
+          line-height: 32px;
+        }
+      }
+  
+      .ant-form-item-control-wrapper {
+        flex: 1;
+      }
+    }
+  
+    .submitButtons {
+      display: block;
+      margin-bottom: 24px;
+      white-space: nowrap;
+    }
+  
+  
+    @media screen and (max-width: @screen-lg) {
+      .tableListForm :global(.ant-form-item) {
+        margin-right: 24px;
+      }
+    }
+  
+    @media screen and (max-width: @screen-md) {
+      .tableListForm :global(.ant-form-item) {
+        margin-right: 8px;
+      }
+    }
+  
+  }
+  .ant-upload-select-picture-card i {
+      font-size: 32px;
+      color: #999;
+    }
+    
+    .ant-upload-select-picture-card .ant-upload-text {
+      margin-top: 8px;
+      color: #666;
+    }
+    .commit{
+        margin-left:240px;
+    }

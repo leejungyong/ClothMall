@@ -1,0 +1,1 @@
+go build -o ginbase.exe cmd/main.go

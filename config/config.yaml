@@ -1,0 +1,54 @@
+# 配置文件
+# http配置
+http: 
+  # 服务端口号
+  port: 
+    - 11049
+    - 11050
+# https配置
+https: 
+  # 服务端口号
+  port: 
+    - 11048
+  # 证书路径
+  certFile: ''
+  # 私钥路径
+  keyFile: ''
+# 数据库配置
+database:
+  - 
+    key: default
+    type: mysql
+    driver: mysql
+    host: rm-bp1415v9ud35ry81mdo.mysql.rds.aliyuncs.com:3306
+    port: 3306
+    user: root123
+    pwd: Passw0rd
+    instance: clothmall
+    mode: wal
+# 常量配置
+consts:
+  # 是否启用jwt 0:禁用 其他:启用
+  -
+    key: activeJWT
+    value: '0'
+  # jwt token 生成时的加密解密密钥
+  -
+    key: tokenKey
+    value: xinlantech1234567890
+  # 图片保存的路径 根目录
+  - 
+    key: imgRoot
+    value: public/upload/pic
+  # 图片访问的url 根目录
+  - key: imgRootUrl
+    value: /upload/pic/
+    sub:
+      # XXX模块图片访问的url
+      - 
+        key: hotRootUrl
+        value: hots/
+      # XXX模块图片访问的url
+      - 
+        key: videoRootUrl
+        value: videos/
