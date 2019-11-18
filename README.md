@@ -38,4 +38,12 @@ wiki
 1. cmd在项目根目录下运行make.bat 生成 ginbase.exe
 2. cmd里执行ginbase.exe
 
-
+![w1](https://github.com/leejungyong/ClothMall/blob/master/pic/w1.png)
+![w2](https://github.com/leejungyong/ClothMall/blob/master/pic/w2.png)
+![w3](https://github.com/leejungyong/ClothMall/blob/master/pic/w3.png)
+![1](https://github.com/leejungyong/ClothMall/blob/master/pic/1.png)
+![2](https://github.com/leejungyong/ClothMall/blob/master/pic/2.png)
+![3](https://github.com/leejungyong/ClothMall/blob/master/pic/3.png)
+![4](https://github.com/leejungyong/ClothMall/blob/master/pic/4.png)
+![5](https://github.com/leejungyong/ClothMall/blob/master/pic/5.png)
+![6](https://github.com/leejungyong/ClothMall/blob/master/pic/6.png)
